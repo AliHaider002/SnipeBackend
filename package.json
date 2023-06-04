@@ -1,0 +1,32 @@
+{
+  "name": "ournftmarketplace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@moralisweb3/common-evm-utils": "^2.10.1",
+    "@moralisweb3/evm-utils": "^2.10.1",
+    "alchemy-sdk": "^2.2.5",
+    "axios": "^1.2.1",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "express.js": "^1.0.0",
+    "git": "^0.1.5",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1",
+    "moralis": "^2.10.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
